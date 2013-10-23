@@ -1,0 +1,135 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font:"Book Antiqua";
+}
+
+#table_print_1{
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#table_print_1,  #table_print_2{
+    border-collapse:collapse;
+}
+
+#table_print_2{
+
+    width: 645px;
+    border-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#name_attri{
+    width:320px;
+}
+
+#unit_attri, #ppu_attri{
+    width:100px;
+}
+
+#price_attri{
+    width:110px;
+}
+
+.result_td_1, .result_td_2, .result_td_3{
+    border:1px solid;
+    border-top:0;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width:110px;
+}
+
+
+.result_td_1, .result_td_2{
+
+}
+
+
+#head_1, #head_2{
+    text-align:center;
+    font-weight: bold;
+    line-height: 0px;
+}
+#head_1{
+    margin-right: auto;
+    margin-left: auto;
+}
+#head_1 span{
+    font-size: 27px;
+}
+#head_1 img{
+    margin-right: 15px;
+    width: 50px;
+    height: auto;
+    vertical-align: -10px;
+}
+
+#head_2{
+    font-size: 27px;
+}
+
+.subhead_1{
+    font-size: 14px;
+}
+
+.subhead_2, .subhead_3, .subhead_4{
+    width: 645px;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subhead_1{
+    display: block;
+    text-align: center;
+}
+
+.subhead_2{
+    text-align: right;
+}
+
+.fullfill_td td{
+    height: 20px;
+}
+
+.empty_border_table{
+    padding-right: 10px;
+    border: 0;
+    text-align: end;
+}
+
+
+#table_wrap{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+td{
+
+    text-align: center;
+}
+
+.name{
+    padding-left: 10px;
+    text-align: left;
+}
+
+.char_num{
+    border:2px solid black;
+    border-top: none;
+    width: 305px;
+}
+
+#counter{
+    text-align: right;
+}
+
+
+
+
+
